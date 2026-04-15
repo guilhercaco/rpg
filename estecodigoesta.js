@@ -1,3 +1,17 @@
+let vidamaxima=100
+let vida=vidamaxima
+let danoporespada=30
+let danocritico=10
+let recuperavida=20
+
+let lobo=1
+let danodolobo=30
+let vidadolobo=80
+
+let leao=2
+let danodoleoa=25
+let vidadoleoa=120
+
 let passaro=3 
 let danodopassaro=35
 let vidadopassaro=60
