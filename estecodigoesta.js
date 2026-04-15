@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")();
+
 let vidamaxima=100
 let vida=vidamaxima
 let danoporespada=30
