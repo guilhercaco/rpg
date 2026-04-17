@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG</title>
+</head>
+<body>
+    <div class="quandrado"></div>
+    <script>
+    let outropessonagem={
+        nome2:nome2,
+        vidatotal2:vidatotal2,
+        vida2:vidatotal2,
+        dano2:dano2,
+    }
+    let pessonagem={
+        nome:"Jaxor",
+        vidatotal:100,
+        dano:30,
+        nivel:1,
+        xp:0,
+
+    }
+    function vidadopessoanagem(pessonagem){
+        let vida=vidatotal
+        let recupera=30
+        vida+=recuperavida
+        if(pessonagem.vida > pessonagem.vidatotal){ 
+            vida=vidatotal
+             }
+    }
+    function danodopessonagem(pessonagem){
+        let dano=pessonagem.dano
+        let danocritico=15
+        dano +=danocritico
+        if(Math.random()<0.2){
+            dano +=danocritico 
+            console.log("voce deu dano critico")}
+        else{
+            console.log("voce nao deu dano critico")
+        }
+    }
+    function vidadorobo(outropessonagem){
+        outropessonagem.nome2="robo"
+        outropessonagem.vidatotal2=90
+        outropessonagem.vida2=vidatotal2
+        outropessonagem.dano2=15
+        function danodopessonagem(outropessonagem){
+            let danocritico2=15
+            if(Math.random()<0.2){ 
+                outropessonagem.dano2 +=danocritico2
+                console.log("voce deu dano critico")}
+            else{
+                console.log("voce nao deu dano critico")
+            }
+        }
+        function desviar(outropessonagem){
+            if(Math.random()<0.3){
+                
+            }
+        }
+
+    }
+    </script>
+</body>
+</html>
